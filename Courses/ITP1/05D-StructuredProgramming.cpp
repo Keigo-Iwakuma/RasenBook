@@ -23,4 +23,7 @@ void call(int n) {
 }
 
 int main() {
+    int n;
+    cin >> n;
+    call(n);
 }

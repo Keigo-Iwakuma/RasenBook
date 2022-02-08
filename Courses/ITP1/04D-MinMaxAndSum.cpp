@@ -11,9 +11,10 @@ int main() {
     int tmp;
     long long int aSum = 0;
     for (int i=0; i<n; i++) {
-        scanf("%d" &tmp);
-        aSum += tmp
-        
+        scanf("%d", &tmp);
+        aSum += tmp;
+        aMax = max(aMax, tmp);
+        aMin = min(aMin, tmp);
     }
-    printf("%d %d %d", aMin, aMax, aSum);
+    printf("%d %d %lld\n", aMin, aMax, aSum);
 }
